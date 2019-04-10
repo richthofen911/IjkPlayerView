@@ -1,0 +1,35 @@
+#Internal package file, do not edit.
+#Wed Apr 10 10:48:46 EDT 2019
+7.path=lib/armeabi-v7a/libijksdl.so
+2.base=/Users/yichao.li/Projects/IjkPlayerView/sample/build/intermediates/transforms/mergeJniLibs/debug/0
+5.set=DEX
+0.path=classes.dex
+2.baseType=DIRECTORY
+3.base=/Users/yichao.li/Projects/IjkPlayerView/sample/build/intermediates/merged_assets/debug/mergeDebugAssets/out
+7.baseType=DIRECTORY
+2.set=NATIVE_RESOURCE
+1.path=afun.json
+4.base=/Users/yichao.li/Projects/IjkPlayerView/sample/build/intermediates/dex/debug/mergeLibDexDebug/out
+7.set=NATIVE_RESOURCE
+count=8
+5.baseType=DIRECTORY
+2.path=lib/armeabi-v7a/libijkffmpeg.so
+5.base=/Users/yichao.li/Projects/IjkPlayerView/sample/build/intermediates/dex/debug/mergeExtDexDebug/out
+4.set=DEX
+3.path=custom.json
+6.base=/Users/yichao.li/Projects/IjkPlayerView/sample/build/intermediates/transforms/mergeJniLibs/debug/0
+3.baseType=DIRECTORY
+1.set=ASSET
+4.path=classes_0.dex
+7.base=/Users/yichao.li/Projects/IjkPlayerView/sample/build/intermediates/transforms/mergeJniLibs/debug/0
+6.set=NATIVE_RESOURCE
+1.baseType=DIRECTORY
+6.baseType=DIRECTORY
+5.path=classes.dex
+0.base=/Users/yichao.li/Projects/IjkPlayerView/sample/build/intermediates/dex/debug/mergeProjectDexDebug/out
+0.baseType=DIRECTORY
+3.set=ASSET
+6.path=lib/armeabi-v7a/libijkplayer.so
+1.base=/Users/yichao.li/Projects/IjkPlayerView/sample/build/intermediates/merged_assets/debug/mergeDebugAssets/out
+4.baseType=DIRECTORY
+0.set=DEX

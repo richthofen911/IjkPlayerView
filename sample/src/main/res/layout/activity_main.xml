@@ -7,9 +7,26 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="@mipmap/photo"
     tools:context="com.dl7.playerdemo.MainActivity">
 
+    <EditText
+        android:id="@+id/input_video_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_find_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find File"/>
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play"/>
+
+    <!--
     <Button
         android:id="@+id/btn_video"
         android:layout_width="200dp"
@@ -59,4 +76,5 @@
         android:gravity="center"
         android:text="切换不同视频源"
         android:textAllCaps="false"/>
+        -->
 </LinearLayout>

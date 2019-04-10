@@ -1,14 +1,13 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.Rukey7'
+group = 'com.github.Rukey7'
 
 android {
-    compileSdkVersion 24
-    buildToolsVersion "24.0.2"
+    compileSdkVersion 28
 
     defaultConfig {
-        minSdkVersion 14
-        targetSdkVersion 24
+        minSdkVersion 24
+        targetSdkVersion 28
         versionCode 4
         versionName "1.0.3"
 
@@ -25,16 +24,18 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:24.2.0'
-    testCompile 'junit:junit:4.12'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    testImplementation 'junit:junit:4.12'
     // ijkplayer
-    compile 'tv.danmaku.ijk.media:ijkplayer-java:0.7.8.1'
-    compile 'tv.danmaku.ijk.media:ijkplayer-armv7a:0.7.8.1'
-//    compile 'com.github.Rukey7:ijkplayer-armv7a:0.7.5'
+    implementation 'tv.danmaku.ijk.media:ijkplayer-java:0.7.8.1'
+    implementation 'tv.danmaku.ijk.media:ijkplayer-armv7a:0.7.8.1'
+//    implementation 'com.github.Rukey7:ijkplayer-armv7a:0.7.5'
     // Danmaku
-    compile 'com.github.ctiao:DanmakuFlameMaster:0.6.2'
+    //implementation 'com.github.ctiao:DanmakuFlameMaster:0.9.25'
+    implementation 'com.github.ctiao:DanmakuFlameMaster:0.6.2'
+    //implementation 'com.github.ctiao:ndkbitmap-armv7a:0.9.21'
 }

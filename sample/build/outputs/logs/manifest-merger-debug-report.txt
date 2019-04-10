@@ -1,0 +1,246 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:2:1-47:12
+MERGED from [:playerview] /Users/yichao.li/Projects/IjkPlayerView/playerview/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-22:12
+MERGED from [com.android.support:design:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/3ae03e2fded8c531dcf49adf9729816e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.Rukey7:TagLayout:1.0.3] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/TagLayout-1.0.3.aar/7204529fc13f2cb73a48fd90c4b5f049/AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0b40af394477be69b1520bd07d4b59b1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/f05573cb3503454e9cc4eaec96ea67b2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.ctiao:DanmakuFlameMaster:0.6.2] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/DanmakuFlameMaster-0.6.2.aar/0dcb904ae03323c52d44d2cbe0f20e27/AndroidManifest.xml:17:1-26:12
+MERGED from [tv.danmaku.ijk.media:ijkplayer-java:0.7.8.1] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/ijkplayer-java-0.7.8.1.aar/951b69394155eb712763a976be953f9f/AndroidManifest.xml:2:1-9:12
+MERGED from [tv.danmaku.ijk.media:ijkplayer-armv7a:0.7.8.1] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/ijkplayer-armv7a-0.7.8.1.aar/17d6f78bf69d2c7c50e2746d1ad207d7/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/02f63372b13c46ee3f348d44d3f19972/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/8db347d70591355e8e325a394ec7244e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/0461f7e5a2242b83e9a0e683e628e961/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/22274d902be29b93e9849f0fc45bbd38/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/eb742ee4089a5143f8ed8c73cc6670f6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/3788b68d62e4ae893a1158f762604ce1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/c9779fd71912e44b32431dce9fc22dde/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/5c31e6832bc9263762a35c41d1ffc7f7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/10ca20c57deafcea66ea4cd642b02161/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/a5ef0d623ff9517839680520346c6b75/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/11d949424921ad48229c844bb94ee9d1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/60c48e50c6dd9da83d34345c4e7a585b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/81b43135cc297149176fffc532621f4c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/c7ea76d13123a3b36b06e3c594d53cf7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/6252610fd6d93a92953a1b1ee2ba9fe2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e269412dd44d841f6de5c986d04c8ab6/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/1ff0c14d540324a4dd8b5c85de822140/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/988f54a3fe8a5d4f1897a86f77cde132/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/416f59886980ca3b8b6708ab49b667a1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/7fa012913ac0026c81121dfd7ae31bca/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/275f9a1adf5dcc1b0873b2d937d821a6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/64e660e33917784503c72cbefaad9bd5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f3f8057ca2363d1a5308dc5584b84bb5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/bed0e93bf1dbfc28a4fc9a2c78ddc5de/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/1023b0e304679e92147ee860f253cd4e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/4742029d2649982d0173ce63e16cd058/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1cf3dd97e7645bc913a31a1ce1b0ac0d/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:2:1-47:12
+	package
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:3:11-39
+		INJECTED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml
+		INJECTED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:2:1-47:12
+		INJECTED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:2:1-47:12
+		INJECTED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:5:5-66
+MERGED from [:playerview] /Users/yichao.li/Projects/IjkPlayerView/playerview/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
+MERGED from [:playerview] /Users/yichao.li/Projects/IjkPlayerView/playerview/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:6:5-67
+MERGED from [:playerview] /Users/yichao.li/Projects/IjkPlayerView/playerview/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-68
+MERGED from [:playerview] /Users/yichao.li/Projects/IjkPlayerView/playerview/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:6:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:8:5-83
+	android:name
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:8:22-81
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:9:22-77
+application
+ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:11:5-45:19
+MERGED from [:playerview] /Users/yichao.li/Projects/IjkPlayerView/playerview/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-20:19
+MERGED from [:playerview] /Users/yichao.li/Projects/IjkPlayerView/playerview/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-20:19
+MERGED from [com.android.support:design:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/3ae03e2fded8c531dcf49adf9729816e/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/3ae03e2fded8c531dcf49adf9729816e/AndroidManifest.xml:22:5-20
+MERGED from [com.github.Rukey7:TagLayout:1.0.3] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/TagLayout-1.0.3.aar/7204529fc13f2cb73a48fd90c4b5f049/AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.Rukey7:TagLayout:1.0.3] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/TagLayout-1.0.3.aar/7204529fc13f2cb73a48fd90c4b5f049/AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e269412dd44d841f6de5c986d04c8ab6/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e269412dd44d841f6de5c986d04c8ab6/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/1ff0c14d540324a4dd8b5c85de822140/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/1ff0c14d540324a4dd8b5c85de822140/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e269412dd44d841f6de5c986d04c8ab6/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:16:9-40
+activity#com.dl7.playerdemo.MainActivity
+ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:17:9-25:20
+	android:screenOrientation
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:19:13-49
+	android:name
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:18:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:21:17-68
+	android:name
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:23:17-76
+	android:name
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:23:27-74
+activity#com.dl7.playerdemo.IjkPlayerActivity
+ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:26:9-30:20
+	android:windowSoftInputMode
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:29:13-67
+	android:configChanges
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:28:13-74
+	android:name
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:27:13-46
+activity#com.dl7.playerdemo.IjkFullscreenActivity
+ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:31:9-32:20
+	android:name
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:31:19-56
+activity#com.dl7.playerdemo.TestAspectActivity
+ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:33:9-36:20
+	android:configChanges
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:35:13-74
+	android:name
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:34:13-47
+activity#com.dl7.playerdemo.CustomDanmakuActivity
+ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:37:9-41:20
+	android:windowSoftInputMode
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:40:13-67
+	android:configChanges
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:39:13-74
+	android:name
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:38:13-50
+activity#com.dl7.playerdemo.SwitchVideoActivity
+ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:42:9-44:20
+	android:configChanges
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:43:19-80
+	android:name
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml:42:19-54
+uses-sdk
+INJECTED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml
+INJECTED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml
+MERGED from [:playerview] /Users/yichao.li/Projects/IjkPlayerView/playerview/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:playerview] /Users/yichao.li/Projects/IjkPlayerView/playerview/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/3ae03e2fded8c531dcf49adf9729816e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/3ae03e2fded8c531dcf49adf9729816e/AndroidManifest.xml:20:5-44
+MERGED from [com.github.Rukey7:TagLayout:1.0.3] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/TagLayout-1.0.3.aar/7204529fc13f2cb73a48fd90c4b5f049/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.Rukey7:TagLayout:1.0.3] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/TagLayout-1.0.3.aar/7204529fc13f2cb73a48fd90c4b5f049/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0b40af394477be69b1520bd07d4b59b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0b40af394477be69b1520bd07d4b59b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/f05573cb3503454e9cc4eaec96ea67b2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/f05573cb3503454e9cc4eaec96ea67b2/AndroidManifest.xml:20:5-44
+MERGED from [com.github.ctiao:DanmakuFlameMaster:0.6.2] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/DanmakuFlameMaster-0.6.2.aar/0dcb904ae03323c52d44d2cbe0f20e27/AndroidManifest.xml:22:5-24:41
+MERGED from [com.github.ctiao:DanmakuFlameMaster:0.6.2] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/DanmakuFlameMaster-0.6.2.aar/0dcb904ae03323c52d44d2cbe0f20e27/AndroidManifest.xml:22:5-24:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-java:0.7.8.1] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/ijkplayer-java-0.7.8.1.aar/951b69394155eb712763a976be953f9f/AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-java:0.7.8.1] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/ijkplayer-java-0.7.8.1.aar/951b69394155eb712763a976be953f9f/AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-armv7a:0.7.8.1] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/ijkplayer-armv7a-0.7.8.1.aar/17d6f78bf69d2c7c50e2746d1ad207d7/AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-armv7a:0.7.8.1] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/ijkplayer-armv7a-0.7.8.1.aar/17d6f78bf69d2c7c50e2746d1ad207d7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/02f63372b13c46ee3f348d44d3f19972/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/02f63372b13c46ee3f348d44d3f19972/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/8db347d70591355e8e325a394ec7244e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/8db347d70591355e8e325a394ec7244e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/0461f7e5a2242b83e9a0e683e628e961/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/0461f7e5a2242b83e9a0e683e628e961/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/22274d902be29b93e9849f0fc45bbd38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/22274d902be29b93e9849f0fc45bbd38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/eb742ee4089a5143f8ed8c73cc6670f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/eb742ee4089a5143f8ed8c73cc6670f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/3788b68d62e4ae893a1158f762604ce1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/3788b68d62e4ae893a1158f762604ce1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/c9779fd71912e44b32431dce9fc22dde/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/c9779fd71912e44b32431dce9fc22dde/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/5c31e6832bc9263762a35c41d1ffc7f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/5c31e6832bc9263762a35c41d1ffc7f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/10ca20c57deafcea66ea4cd642b02161/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/10ca20c57deafcea66ea4cd642b02161/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/a5ef0d623ff9517839680520346c6b75/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/a5ef0d623ff9517839680520346c6b75/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/11d949424921ad48229c844bb94ee9d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/11d949424921ad48229c844bb94ee9d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/60c48e50c6dd9da83d34345c4e7a585b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/60c48e50c6dd9da83d34345c4e7a585b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/81b43135cc297149176fffc532621f4c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/81b43135cc297149176fffc532621f4c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/c7ea76d13123a3b36b06e3c594d53cf7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/c7ea76d13123a3b36b06e3c594d53cf7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/6252610fd6d93a92953a1b1ee2ba9fe2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/6252610fd6d93a92953a1b1ee2ba9fe2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e269412dd44d841f6de5c986d04c8ab6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e269412dd44d841f6de5c986d04c8ab6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/1ff0c14d540324a4dd8b5c85de822140/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/1ff0c14d540324a4dd8b5c85de822140/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/988f54a3fe8a5d4f1897a86f77cde132/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/988f54a3fe8a5d4f1897a86f77cde132/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/416f59886980ca3b8b6708ab49b667a1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/416f59886980ca3b8b6708ab49b667a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/7fa012913ac0026c81121dfd7ae31bca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/7fa012913ac0026c81121dfd7ae31bca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/275f9a1adf5dcc1b0873b2d937d821a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/275f9a1adf5dcc1b0873b2d937d821a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/64e660e33917784503c72cbefaad9bd5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/64e660e33917784503c72cbefaad9bd5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f3f8057ca2363d1a5308dc5584b84bb5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f3f8057ca2363d1a5308dc5584b84bb5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/bed0e93bf1dbfc28a4fc9a2c78ddc5de/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/bed0e93bf1dbfc28a4fc9a2c78ddc5de/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/1023b0e304679e92147ee860f253cd4e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/1023b0e304679e92147ee860f253cd4e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/4742029d2649982d0173ce63e16cd058/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/4742029d2649982d0173ce63e16cd058/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1cf3dd97e7645bc913a31a1ce1b0ac0d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/yichao.li/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1cf3dd97e7645bc913a31a1ce1b0ac0d/AndroidManifest.xml:20:5-44
+INJECTED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml
+INJECTED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml
+		INJECTED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml
+		ADDED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml
+		INJECTED from /Users/yichao.li/Projects/IjkPlayerView/sample/src/main/AndroidManifest.xml
+uses-permission#android.permission.BATTERY_STATS
+ADDED from [:playerview] /Users/yichao.li/Projects/IjkPlayerView/playerview/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-72
+	android:name
+		ADDED from [:playerview] /Users/yichao.li/Projects/IjkPlayerView/playerview/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:playerview] /Users/yichao.li/Projects/IjkPlayerView/playerview/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from [:playerview] /Users/yichao.li/Projects/IjkPlayerView/playerview/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:22-76
