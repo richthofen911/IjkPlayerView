@@ -1,5 +1,6 @@
 package com.dl7.playerdemo;
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.KeyEvent;
@@ -16,13 +17,18 @@ public class IjkFullscreenActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mPlayerView = new IjkPlayerView(this);
-        setContentView(mPlayerView);
+        setContentView(R.layout.activity_ijk_fullscreen);
+        //String videoUri = getIntent().getStringExtra("video_uri");
+        //Uri videoUri = getIntent().getParcelableExtra("video_uri");
+
+        mPlayerView = findViewById(R.id.ijk_full);
+
         Glide.with(this).load(IMAGE_URL).fitCenter().into(mPlayerView.mPlayerThumb);
         mPlayerView.init()
                 .alwaysFullScreen()
                 .enableOrientation()
                 .setVideoPath(VIDEO_URL)
+                //.setVideoPath(videoUri)
                 .enableDanmaku()
                 .setDanmakuSource(getResources().openRawResource(R.raw.bili))
                 .setTitle("这是个跑马灯TextView，标题要足够长才会跑。-(゜ -゜)つロ 乾杯~")

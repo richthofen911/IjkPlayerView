@@ -253,15 +253,14 @@ public class IjkVideoView extends FrameLayout implements MediaController.MediaPl
 
         if (degree > 315 || degree <= 45) {
             mVideoRotationDegree = 0;
-        } else if (degree > 45 && degree <= 135) {
+        } else if (degree <= 135) {
             mVideoRotationDegree = 90;
-        } else if (degree > 135 && degree <= 225) {
+        } else if (degree <= 225) {
             mVideoRotationDegree = 180;
-        } else if (degree > 225 && degree <= 315) {
-            mVideoRotationDegree = 270;
         } else {
-            mVideoRotationDegree = 0;
+            mVideoRotationDegree = 270;
         }
+
 //        mRenderView.setVideoRotation(mVideoRotationDegree);
         final int deltaDegree = mVideoRotationDegree - mVideoTargetRotationDegree;
         mVideoTargetRotationDegree = mVideoRotationDegree;

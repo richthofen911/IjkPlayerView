@@ -1168,6 +1168,7 @@ id icon_check_change
 id icon_check_invisible
 id icon_group
 id ifRoom
+id ijk_full
 id image
 id info
 id input_options_basic
@@ -1399,6 +1400,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_custom_danmaku
+layout activity_ijk_fullscreen
 layout activity_ijk_player
 layout activity_main
 layout activity_switch_video

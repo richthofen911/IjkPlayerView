@@ -1316,6 +1316,7 @@ public class IjkPlayerView extends FrameLayout implements View.OnClickListener {
                         scale = newDist / oldDist;
                         mVideoMatrix.postScale(scale, scale, midPoint.x, midPoint.y);
                         mVideoView.setVideoTransform(mVideoMatrix);
+                        mIsNeedRecoverScreen = mVideoView.adjustVideoView(scale);
                     }
                     break;
 

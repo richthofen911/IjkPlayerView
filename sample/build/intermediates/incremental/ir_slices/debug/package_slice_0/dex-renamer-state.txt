@@ -1,0 +1,4 @@
+#Wed Apr 10 22:03:43 EDT 2019
+base.0=/home/shiwaloo/Projects/IjkPlayerView/sample/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
