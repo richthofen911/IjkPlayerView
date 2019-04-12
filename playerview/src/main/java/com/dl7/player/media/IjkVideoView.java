@@ -242,7 +242,7 @@ public class IjkVideoView extends FrameLayout implements MediaController.MediaPl
      * @param scale 本次缩放比例
      * @return true则做了变换，false则没变化
      */
-    public boolean adjustVideoView(float scale) {
+    public boolean adjustVideoView(float scale, boolean isPointerUp) {
         // 计算当前缩放比例
         mVideoScale *= scale;
         // 计算旋转角度
@@ -251,17 +251,19 @@ public class IjkVideoView extends FrameLayout implements MediaController.MediaPl
             return false;
         }
 
-        if (degree > 315 || degree <= 45) {
-            mVideoRotationDegree = 0;
-        } else if (degree <= 135) {
-            mVideoRotationDegree = 90;
-        } else if (degree <= 225) {
-            mVideoRotationDegree = 180;
-        } else {
-            mVideoRotationDegree = 270;
+        if (isPointerUp) {
+            if (degree > 315 || degree <= 45) {
+                mVideoRotationDegree = 0;
+            } else if (degree <= 135) {
+                mVideoRotationDegree = 90;
+            } else if (degree <= 225) {
+                mVideoRotationDegree = 180;
+            } else {
+                mVideoRotationDegree = 270;
+            }
         }
 
-//        mRenderView.setVideoRotation(mVideoRotationDegree);
+        //mRenderView.setVideoRotation(mVideoRotationDegree);
         final int deltaDegree = mVideoRotationDegree - mVideoTargetRotationDegree;
         mVideoTargetRotationDegree = mVideoRotationDegree;
 

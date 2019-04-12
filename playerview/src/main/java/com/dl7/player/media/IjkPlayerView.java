@@ -1015,7 +1015,7 @@ public class IjkPlayerView extends FrameLayout implements View.OnClickListener {
         // 处理三指旋转缩放，如果之前进行了相关操作则全屏时还原之前旋转缩放的状态，窗口模式则将整个屏幕还原为未操作状态
         if (mIsNeedRecoverScreen) {
             if (isFullscreen) {
-                mVideoView.adjustVideoView(1.0f);
+                mVideoView.adjustVideoView(1.0f, false);
                 mTvRecoverScreen.setVisibility(mIsShowBar ? View.VISIBLE : View.GONE);
             } else {
                 mVideoView.resetVideoView(false);
@@ -1316,14 +1316,14 @@ public class IjkPlayerView extends FrameLayout implements View.OnClickListener {
                         scale = newDist / oldDist;
                         mVideoMatrix.postScale(scale, scale, midPoint.x, midPoint.y);
                         mVideoView.setVideoTransform(mVideoMatrix);
-                        mIsNeedRecoverScreen = mVideoView.adjustVideoView(scale);
+                        mIsNeedRecoverScreen = mVideoView.adjustVideoView(scale, false);
                     }
                     break;
 
                 case MotionEvent.ACTION_POINTER_UP:
                     if (mode == ZOOM_AND_ROTATE) {
                         // 调整视频界面，让界面居中显示在屏幕
-                        mIsNeedRecoverScreen = mVideoView.adjustVideoView(scale);
+                        mIsNeedRecoverScreen = mVideoView.adjustVideoView(scale, true);
                         if (mIsNeedRecoverScreen && mIsShowBar) {
                             mTvRecoverScreen.setVisibility(VISIBLE);
                         }
@@ -1340,7 +1340,7 @@ public class IjkPlayerView extends FrameLayout implements View.OnClickListener {
                     _endGesture();
                 }
             }
-            return false;
+            return true;
         }
     };
 

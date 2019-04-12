@@ -12,7 +12,6 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.BATTERY_STATS" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -40,21 +39,19 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:windowSoftInputMode="adjustResize|stateHidden" >
         </activity>
-        <activity android:name="com.dl7.playerdemo.IjkFullscreenActivity" >
-        </activity>
+        <activity
+            android:name="com.dl7.playerdemo.IjkFullscreenActivity"
+            android:launchMode="singleTop" />
         <activity
             android:name="com.dl7.playerdemo.TestAspectActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize" >
-        </activity>
+            android:configChanges="orientation|keyboardHidden|screenSize" />
         <activity
             android:name="com.dl7.playerdemo.CustomDanmakuActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:windowSoftInputMode="adjustResize|stateHidden" >
-        </activity>
+            android:windowSoftInputMode="adjustResize|stateHidden" />
         <activity
             android:name="com.dl7.playerdemo.SwitchVideoActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize" >
-        </activity>
+            android:configChanges="orientation|keyboardHidden|screenSize" />
     </application>
 
 </manifest>
