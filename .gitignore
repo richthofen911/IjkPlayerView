@@ -8,5 +8,5 @@
 /captures
 .externalNativeBuild
 /.idea/
-/sample/build
+./sample/build
 /playerview/build
